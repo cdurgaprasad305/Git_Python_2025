@@ -15,6 +15,10 @@ def mult1():
             print("The Product of two numbers: " + str(a * b))
 
 
-add1()
+# add1()
 sub1()
 mult1()
+
+def test_first_add1():
+    add1()
+    return
