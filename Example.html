@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Test User">
+    <title>Web Testing Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+        }
+
+        .section {
+            margin: 20px 0;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+
+        h2 {
+            color: #4CAF50;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 10px 0;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Web Testing Sample Page</h1>
+    <p>This page is designed to include a variety of HTML elements for web testing purposes. Use Selenium or other tools to test functionalities.</p>
+
+    <!-- Links Section -->
+    <div class="section" id="links-section">
+        <h2>Links</h2>
+        <a href="https://example.com" id="external-link">Visit Example.com (External Link)</a><br>
+        <a href="#form-section" id="internal-link">Go to Form Section (Internal Link)</a><br>
+        <a href="#" id="broken-link">This is a broken link</a><br>
+    </div>
+
+    <!-- Forms Section -->
+    <div class="section" id="form-section">
+        <h2>Form</h2>
+        <form id="test-form">
+            <!-- Text Input -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+
+            <!-- Email Input -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
+
+            <!-- Password Input -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter a password"><br><br>
+
+            <!-- Radio Buttons -->
+            <fieldset>
+                <legend>Gender:</legend>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label><br>
+            </fieldset><br>
+
+            <!-- Checkbox -->
+            <label for="terms">
+                <input type="checkbox" id="terms" name="terms"> I agree to the terms and conditions
+            </label><br><br>
+
+            <!-- Dropdown -->
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+                <option value="">Select your country</option>
+                <option value="us">United States</option>
+                <option value="uk">United Kingdom</option>
+                <option value="india">India</option>
+                <option value="canada">Canada</option>
+            </select><br><br>
+
+            <!-- Text Area -->
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" placeholder="Enter your message"></textarea><br><br>
+
+            <!-- Submit Button -->
+            <button type="submit" id="submit-button">Submit</button>
+
+            <!-- Reset Button -->
+            <button type="reset" id="reset-button">Reset</button>
+        </form>
+    </div>
+
+    <!-- Tables Section -->
+    <div class="section" id="table-section">
+        <h2>Table</h2>
+        <table id="test-table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Country</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>John Doe</td>
+                    <td>30</td>
+                    <td>USA</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Jane Smith</td>
+                    <td>25</td>
+                    <td>UK</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Amit Sharma</td>
+                    <td>28</td>
+                    <td>India</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Lists Section -->
+    <div class="section" id="lists-section">
+        <h2>Lists</h2>
+        <!-- Unordered List -->
+        <h3>Unordered List</h3>
+        <ul>
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>Cherry</li>
+        </ul>
+
+        <!-- Ordered List -->
+        <h3>Ordered List</h3>
+        <ol>
+            <li>First</li>
+            <li>Second</li>
+            <li>Third</li>
+        </ol>
+    </div>
+
+    <!-- Buttons Section -->
+    <div class="section" id="buttons-section">
+        <h2>Buttons</h2>
+        <button id="click-me-button" onclick="alert('Button Clicked')">Click Me</button>
+        <button id="disabled-button" disabled>Disabled Button</button>
+    </div>
+
+    <!-- Images Section -->
+    <div class="section" id="images-section">
+        <h2>Images</h2>
+        <img src="https://via.placeholder.com/150" alt="Sample Image" id="sample-image">
+    </div>
+
+</body>
+
+</html>
