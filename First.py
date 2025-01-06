@@ -25,3 +25,5 @@ def test_first_add1():
 
 # Simple comment line adding from git hub to test
 # Simple line of command adding from local pycharm IDE
+
+# Practice Push and pull in GIT
