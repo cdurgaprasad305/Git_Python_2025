@@ -1,6 +1,7 @@
 from datetime import datetime
 
 import requests
+# import requests
 from selenium.webdriver.common.by import By
 from selenium import webdriver
 from selenium.webdriver.support.wait import WebDriverWait
@@ -58,3 +59,4 @@ for link in links:
    f.writelines (name +" -- "+ href+"\n")
 
 input("Press Enter to Close")
+# Commit comments
